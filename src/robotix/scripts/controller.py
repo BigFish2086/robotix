@@ -42,8 +42,8 @@ if __name__ == "__main__":
 
     rate = rospy.Rate(10)
     msg = Twist()
-    l_acc = 3.7
-    a_acc = 3.7
+    l_acc = 2
+    a_acc = 2
 
     settings = saveTerminalSettings()
 
