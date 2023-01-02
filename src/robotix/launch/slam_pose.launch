@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch" />
+  <node name="sensors" pkg="robotix" type="sensors.py" output="screen"/>
+  <node name="slam_pose" pkg="robotix" type="slam_pose.py" output="screen"/>
+</launch>
+
+
